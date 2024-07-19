@@ -1,0 +1,227 @@
+*{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.imgbok1{
+    height: 289px;
+    width:900px;
+    background-color: aqua;
+    padding:14px;
+    margin:20px;
+    background-image: url("bok1.jpg");
+    background-size: cover;
+}
+.img{
+    display:flex;
+}
+.bok1desc{
+    margin-left:18px;
+    font:24px;   
+}
+.q{
+  margin-bottom: 6px;  
+}
+.w{
+    color:#007185;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.e{
+    color:white;
+    background-color: #007185;
+}
+.r{
+    margin-left: 20px;
+}
+.t{
+    height:1px;
+    width:220px;
+    background-color:grey;
+    margin-left: 20px;
+   
+}
+.authorimg{
+    height:75px ;
+    margin-left:20px;
+    margin-top:4px;
+    width: 75px;
+    background-color: aqua;
+    border:2px solid #007185;
+    border-radius: 50%;
+    background-image: url("laura.jpg");
+    background-size: cover;
+}
+.laura{
+    display:flex;
+}
+.authorname{
+    margin:15px;
+    
+
+}
+.d{
+color:#007185;
+}
+.follow{
+    height:29px;
+    width:98px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.f{
+    height:1px;
+    
+    background-color:grey;
+    margin-left: 5px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.margindesc{
+margin:5px;
+}
+.aboutbook{
+    color:#007185;
+    
+    
+}
+.icon1{
+    margin-left: 20px;
+    color: rgb(221, 113, 113);
+}
+.color{
+    color:black;
+}
+
+.icons{
+display: flex;
+justify-content: space-evenly;
+}
+.img1{
+    width:400px;
+    height:400px;
+    background-color: aqua;
+    background-image: url("bok1high2.jpg");
+    background-size: cover;
+}
+.img2{
+    width:400px;
+    height:400px;
+    background-color: aqua;
+    background-image: url("bok1high.jpg");
+    background-size: cover;
+}
+.highlights{
+    display:flex;
+    justify-content:space-evenly;
+}
+.white{
+    color:antiquewhite;
+    font: 18px bookerly;
+    margin:20px;
+    text-align: center;
+    margin-top:100px;
+}
+.pub{
+    width: 970px;
+    height: 300px;
+    background-color: #007185;
+    margin-top: 20px;
+    background-image: url("bok1pub.jpg");
+}
+.addtocart{
+    display: flex;
+}
+.buy{
+    display:flex;
+}
+.addtocart{
+    height: 30px;
+    width:279px;
+    background-color: yellow;
+    color:black;
+    border:2px solid yellow;
+ border-radius:20px ;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin:10px;
+}
+.buynow{
+    height: 30px;
+    width:279px;
+    background-color: orange;
+    color:black;
+    border:2px solid orange;
+ border-radius:20px ;
+ margin:10px;
+}
+.addtocart:hover{
+    background-color: #f1e64d;
+}
+.buynow:hover{
+background-color: #f1bd4d;
+}
+.authorposition{
+    margin-right: 20px;
+}
+#cart {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+}
+
+#cart h2 {
+    margin-top: 0;
+}
+
+#cart-items {
+    list-style: none;
+    padding: 0;
+}
+
+#cart-items li {
+    margin-bottom: 5px;
+}
+
+#total {
+    font-weight: bold;
+}
+.shopping-cart{
+    color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
