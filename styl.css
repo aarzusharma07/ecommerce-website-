@@ -1,0 +1,96 @@
+body{
+    background-color:whitesmoke;
+}
+.message{
+    position: sticky;
+    top:0;left:0;right:0;
+    padding: 15px 10px;
+    background-color: white;
+    text-align: center;
+    z-index: 1000;
+    box-shadow: 10px 5px 5px black;
+}
+.form-container{
+    min-height:100vh;
+    display:flex;
+    align-items:center ;
+    justify-content:center;
+    padding:20px;
+}
+.form-container form{
+    width:500px;
+    border-radius: 5px;
+    border:2px solid black;
+    padding:20px ;
+    text-align:center;
+    background-color:white;
+}
+.form-container form h3{
+    font-size: 30px;
+    margin-bottom:10px;
+    text-transform:uppercase;
+    color:black;
+}
+.form-container form .box{
+    width: 100%;
+    border-radius:5px;
+    border:2px solid black;
+    padding:12px 14px;
+    font-size: 18px;
+    margin:10px 0;
+}
+.btn,
+.delete-btn,
+.option-btn{
+    display:inline-block;
+    padding:10px 30px;
+    cursor: pointer;
+    font-size: 18px;
+    color:white;
+    border-radius: 5px;
+}
+.btn:hover,
+.delete-btn:hover,
+.option-btn:hover{
+background-color: black;
+text-transform: capitalize;
+}
+.btn{
+    background-color: blue;
+    margin-top:10px;
+}
+.delete-btn{
+    background-color: red;
+
+}
+.option-btn{
+background-color: orange;
+
+}
+
+
+.container{
+    padding:0 20px;
+    padding: 0 auto;
+max-width:1200px;
+padding-bottom: 70px;
+}
+.container .user-profile{
+padding:20px;
+text-align:center;
+border: 2px solid black;
+background-color: white;
+border-radius: 5px;
+max-width: 500px;
+margin:20px auto;
+}
+.container .user-profile p span{
+    color:red;
+}
+.container .user-profile .flex{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
